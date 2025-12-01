@@ -10,31 +10,23 @@ This repository contains the complete RTL design, constraints, and verification 
 
 ✔️ Clean modular architecture for easy understanding
 
-✔️ Includes testbenches for functional verification
-
 ✔️ Constraints and configuration files for synthesis & implementation
 
-✔️ Compatible with common open-source and commercial EDA tools
+✔️ Compatible with OpenLane
 
 🗂️ Repository Structure
 
 /src/ – RTL modules
 
-/tb/ – Testbench files
-
 /constraints/ – Timing & design constraints
 
-/docs/ – Design documents and notes
-
-/scripts/ – Helper scripts for simulation/synthesis
-
-/results/ – Waveforms, logs, and reports
+SDC file
 
 🚀 Tools Used
 
 Verilog HDL
 
-Simulation (e.g., Icarus Verilog / ModelSim / Verilator)
+Simulation (e.g., Icarus Verilog / Verilator)
 
 Synthesis & P&R (OpenLane / Yosys / Vivado / etc.)
 
